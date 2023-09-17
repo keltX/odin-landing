@@ -1,3 +1,4 @@
+
 body{
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -23,11 +24,8 @@ body{
 .title h1{
     font: 48px;
     color:  #F9FAF8;
-    flex: 1;
 }
-.title p{
-    flex: 2;
-}
+
 .title p, .nav ul li,.img1{
     font: 18px;
     color: #E5E7EB;
@@ -56,12 +54,13 @@ body{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    flex:1;
+    justify-content: flex-start;
+    margin: 0;
 }
 
 .img1{
     border: 1px;
-    background-color: rgb(148, 144, 144);
+    background-color: #6D747D;
     flex: 1;
     max-width: 45%;
     text-align: center;
